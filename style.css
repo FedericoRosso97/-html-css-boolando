@@ -15,14 +15,16 @@
 }
 
 .padding{
-    padding:1rem 15rem;
+    padding:0.5rem;
 }
 
 nav{
     
     justify-content: space-between;
     background-color: orange;
+    padding:1rem 15rem;
     position: fixed;
+    z-index: 1;
     width: 100%;
 }
 
@@ -50,7 +52,7 @@ main{
 }
 .item{
     width: calc((100%/ 3));
-    margin: 1rem;
+    margin: 0.5rem;
     position: relative;
 }
 
