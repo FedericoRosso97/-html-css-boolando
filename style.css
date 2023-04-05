@@ -50,7 +50,7 @@ main{
 }
 .item{
     width: calc((100%/ 3));
-    
+    margin: 1rem;
     position: relative;
 }
 
@@ -65,7 +65,6 @@ main{
 
 .item:hover .prodotto2{
     display: inline-block;
-    z-index: 1;
 }
 
 .item:hover .prodotto1{
@@ -79,9 +78,12 @@ h1{
     position: absolute;
 }
 .cuore{
-    width:5% ;
+    font-size: 2em;
+    text-align: center;
+    vertical-align: middle;
+    padding:0 0.3em;
     background-color: white;
-    top:0;
+    top:5px;
     right: 0;
 }
 
