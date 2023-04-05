@@ -58,6 +58,9 @@ main{
     max-width:100%;
 }
 
+.prodotto2{
+    display: none;
+}
 h1{
     font-size: 20px;
 }
