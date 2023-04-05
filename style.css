@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
 .flex{
     display: flex;
     flex-direction: row;
@@ -88,6 +92,11 @@ h1{
     top:5px;
     right: 0;
 }
+
+main .prezzo{
+    font-weight: bold;
+    color:red;
+} 
 
 .cuore:hover{
     color:red;
