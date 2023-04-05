@@ -45,9 +45,11 @@ main{
     padding:7rem 15rem;
 }
 .item{
+    width: calc((100%/ 3));
     padding:1rem ;
 }
 
-img{
-    max-width: 100%;
+.prodotto1{
+    max-width:100%;
 }
+
