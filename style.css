@@ -89,6 +89,10 @@ h1{
     right: 0;
 }
 
+.cuore:hover{
+    color:red;
+}
+
 .discount-container{
     left: 0;
     bottom: 150px;
