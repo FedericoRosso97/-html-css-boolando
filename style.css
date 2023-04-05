@@ -46,10 +46,18 @@ main{
 }
 .item{
     width: calc((100%/ 3));
-    padding:1rem ;
+    margin:1rem ;
+    position: relative;
 }
 
 .prodotto1{
     max-width:100%;
 }
 
+.cuore{
+    width:5% ;
+    background-color: white;
+    position: absolute;
+    top:0;
+    right: 0;
+}
