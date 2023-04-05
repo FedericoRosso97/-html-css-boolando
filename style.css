@@ -59,8 +59,19 @@ main{
 }
 
 .prodotto2{
+    max-width:100%;
     display: none;
 }
+
+.item:hover .prodotto2{
+    display: inline-block;
+    z-index: 1;
+}
+
+.item:hover .prodotto1{
+    display: none;
+}
+
 h1{
     font-size: 20px;
 }
