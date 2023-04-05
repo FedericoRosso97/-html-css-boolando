@@ -3,28 +3,36 @@
     margin: 0;
     padding: 0;
 }
+
 .flex{
     display: flex;
     flex-direction: row;
 }
+
 .center{
     justify-content: center;
     align-items: center;
 }
+
 nav{
     padding:1rem 15rem;
     justify-content: space-between;
     background-color: orange;
+    position: fixed;
+    width: 100%;
 }
+
 ul,.emoticon-container{
     list-style-type:none;
     gap: 0.5rem;
     font-size: 20px;
 }
+
 .logo-container{
     justify-content: center;
    
 }
+
 .logo{
     width: 25%;
 }
@@ -33,3 +41,13 @@ ul,.emoticon-container{
     color: white;
 }
 
+main{
+    padding:7rem 15rem;
+}
+.item{
+    padding:1rem ;
+}
+
+img{
+    max-width: 100%;
+}
