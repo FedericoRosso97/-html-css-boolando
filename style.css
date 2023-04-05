@@ -3,3 +3,33 @@
     margin: 0;
     padding: 0;
 }
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    padding:1rem 15rem;
+    justify-content: space-between;
+    background-color: orange;
+}
+ul,.emoticon-container{
+    list-style-type:none;
+    gap: 0.5rem;
+    font-size: 20px;
+}
+.logo-container{
+    justify-content: center;
+   
+}
+.logo{
+    width: 25%;
+}
+
+.white{
+    color: white;
+}
+
